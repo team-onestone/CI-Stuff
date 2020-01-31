@@ -41,9 +41,9 @@ set -e
 cd $TRAVIS_BUILD_DIR
 
 # The default version of doxygen is too old so we'll use a modern version
-wget -q https://netcologne.dl.sourceforge.net/project/doxygen/rel-1.8.15/doxygen-1.8.15.linux.bin.tar.gz
-tar -xf doxygen-1.8.15.linux.bin.tar.gz
-mv doxygen-1.8.15/bin/doxygen .
+wget -q https://netcologne.dl.sourceforge.net/project/doxygen/rel-1.8.17/doxygen-1.8.17.linux.bin.tar.gz
+tar -xf doxygen-1.8.17.linux.bin.tar.gz
+mv doxygen-1.8.17/bin/doxygen .
 chmod +x doxygen
 
 # Create a clean working directory for this script.
